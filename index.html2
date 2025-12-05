@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação da Senha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        Recuperação<br>da senha
+    </div>
+
+    <div class="container">
+
+        <label>Email</label>
+        <input type="email" id="email" placeholder="@gmail.com" required>
+
+        <div class="title">Atenção</div>
+
+        <div class="box">
+            Ao recuperar a senha e garantir a proteção do seu acesso, recomendamos a criação de senhas fácil e eficaz que seja forte e combina letras maiúsculas e minúsculas, números e símbolos.<br><br>
+
+            O nosso site opera com criptografia de ponta a ponta, assegurando que suas informações estejam sempre protegidas.
+            Além disso, aderimos estritamente à Lei Geral de Proteção de Dados (LGPD), garantindo a sua privacidade e a segurança dos seus dados.
+        </div>
+
+        <button class="btn" onclick="recuperarSenha()">RECUPERAR</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
