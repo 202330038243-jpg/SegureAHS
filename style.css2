@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9c8e8;
+}
+
+/* Header roxo */
+.header {
+    background: #8e2de2;
+    color: #fffd4d;
+    text-align: center;
+    padding: 70px 20px;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.container {
+    padding: 25px;
+}
+
+label {
+    font-size: 14px;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-top: 6px;
+    margin-bottom: 22px;
+    border: 2px solid #8e2de2;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #6a15c7;
+}
+
+/* Caixa de atenção */
+.box {
+    background: white;
+    border: 2px solid #8e2de2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #8e2de2;
+    font-weight: bold;
+}
+
+/* Botão */
+.btn {
+    width: 100%;
+    background: #8e2de2;
+    color: white;
+    border: none;
+    padding: 18px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #741bcc;
+}
