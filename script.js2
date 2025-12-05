@@ -1,0 +1,10 @@
+function recuperarSenha() {
+    const email = document.getElementById("email").value;
+
+    if (email.trim() === "") {
+        alert("Por favor, preencha seu e-mail.");
+        return;
+    }
+
+    alert("Um link de recuperação foi enviado para: " + email);
+}
