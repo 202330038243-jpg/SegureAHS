@@ -1,0 +1,12 @@
+function fazerLogin() {
+    const nome = document.getElementById("nome").value;
+    const senha = document.getElementById("senha").value;
+    const email = document.getElementById("email").value;
+
+    if (nome === "" || senha === "" || email === "") {
+        alert("Por favor, preencha todos os campos!");
+        return;
+    }
+
+    alert("Login realizado com sucesso!");
+}
